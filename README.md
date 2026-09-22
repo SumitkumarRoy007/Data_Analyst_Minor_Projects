@@ -74,6 +74,9 @@ Analyzed sales data to find monthly revenue, top products, and sales trends for 
     - Female employees records & salary filter (>=40000)
 - HR & Workforce Analysis
 
+**Dashboard Preview:**
+<img width="880" height="492" alt="emp_Dashboard" src="https://github.com/user-attachments/assets/39bf011b-7803-4fb9-aec3-351d150b2773" />
+
 # SQL Queries :
 **Department wise employee count:**
 
