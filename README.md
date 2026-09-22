@@ -74,17 +74,17 @@ Analyzed sales data to find monthly revenue, top products, and sales trends for 
     - Female employees records & salary filter (>=40000)
 - HR & Workforce Analysis
 
-**SQL Queries :**
--  Department wise employee count
-- select department, count(*) as total_employees from srijan_emp group by department order by total_employees desc;
+# SQL Queries :
+**Department wise employee count:**
+select department, count(*) as total_employees from srijan_emp group by department order by total_employees desc;
    <img width="222" height="142" alt="dept_emp_count" src="https://github.com/user-attachments/assets/a9d6cabb-b63b-4daa-8e1b-53c9264dd0e7" />
 
--  Average Salary by Department:
-- select department, round(avg(exact_salary),0) as avg_salary from srijan_emp group by department order by avg_salary desc;
+**Average Salary by Department:**
+select department, round(avg(exact_salary),0) as avg_salary from srijan_emp group by department order by avg_salary desc;
     <img width="196" height="143" alt="dept_avg_sal" src="https://github.com/user-attachments/assets/77af0922-6d86-42c1-a5a2-032e06978f0e" />
 
--  Top 5 highest paid employee
-- select employee_name, designation, monthly_salary from srijan_emp order by monthly_salary desc limit 5;s;
+**Top 5 highest paid employee :**
+ select employee_name, designation, monthly_salary from srijan_emp order by monthly_salary desc limit 5;s;
     <img width="315" height="149" alt="top5_emp" src="https://github.com/user-attachments/assets/f71f2adf-ac4d-4772-a972-2e84fbf5a127" />
 
 
