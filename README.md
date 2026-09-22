@@ -20,7 +20,7 @@ Analyzed sales data to find monthly revenue, top products, and sales trends for 
 - Wrote SQL queries for Total Revenue, Category-wise Sales, Monthly Trends
 - Built Excel dashboard
 
-- ![Excel Dashboard](Dashboard.png)
+
 
 **Tools:** `Excel` `MySQL` 
 
