@@ -25,7 +25,8 @@ Analyzed sales data to find monthly revenue, top products, and sales trends for 
 
 # SQL Queries :
 
- **Overall Business Performances**
+ **Overall Business Performances :**
+ 
  select
  count(*) as Total_orders,
  (sum(total_sales)/10000000) as Total_revenue_Cr,
@@ -37,6 +38,7 @@ Analyzed sales data to find monthly revenue, top products, and sales trends for 
 
 
  **Revenue by Category and Product - what sells most?**
+  
   select category, product, sum(quantity) as units_sold, round(sum(total_sales)/10000000,2) as Revenue_Cr
   from sales
   where order_status = 'completed'
