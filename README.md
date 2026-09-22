@@ -23,8 +23,9 @@ Analyzed sales data to find monthly revenue, top products, and sales trends for 
 **Dashboard Preview:**
 ![Project 1 Sales Dashboard](Project_1_Excel_dashboard.png)
 
-**SQL Queries :**
-# overall business performances
+# SQL Queries :
+
+ **Overall Business Performances**
  select
  count(*) as Total_orders,
  (sum(total_sales)/10000000) as Total_revenue_Cr,
@@ -35,7 +36,7 @@ Analyzed sales data to find monthly revenue, top products, and sales trends for 
   <img width="428" height="54" alt="Overall_performance" src="https://github.com/user-attachments/assets/93138a37-4d52-4114-b53e-faed8e010cac" />
 
 
-# revenue by category and product - what sells most?
+ **Revenue by Category and Product - what sells most?**
   select category, product, sum(quantity) as units_sold, round(sum(total_sales)/10000000,2) as Revenue_Cr
   from sales
   where order_status = 'completed'
