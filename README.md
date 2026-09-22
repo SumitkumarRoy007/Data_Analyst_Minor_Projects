@@ -31,7 +31,8 @@ Analyzed sales data to find monthly revenue, top products, and sales trends for 
 - round(avg(total_sales)/1000,2) as Avg_order_value_Thousand,
 - sum(quantity) as Total_units
 - from sales;
-        <img width="428" height="54" alt="Overall_performance" src="https://github.com/user-attachments/assets/93138a37-4d52-4114-b53e-faed8e010cac" />
+-
+-   <img width="428" height="54" alt="Overall_performance" src="https://github.com/user-attachments/assets/93138a37-4d52-4114-b53e-faed8e010cac" />
 
 
 -   revenue by category and product - what sells most?
@@ -40,12 +41,12 @@ Analyzed sales data to find monthly revenue, top products, and sales trends for 
 -  where order_status = 'completed'
 -  group by category, product
 -  order by Revenue_Cr desc limit 10;
-        <img width="338" height="214" alt="Top10_products" src="https://github.com/user-attachments/assets/cd13dec7-fccb-4722-bf56-3ef50c287f1e" />
+-
+-    <img width="338" height="214" alt="Top10_products" src="https://github.com/user-attachments/assets/cd13dec7-fccb-4722-bf56-3ef50c287f1e" />
 
 
 
 **Tools:** `Excel` `MySQL` 
-
 
 
 ---
