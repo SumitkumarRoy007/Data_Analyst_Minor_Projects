@@ -5,7 +5,7 @@ This repository contains 2 Minor Projects built using SQL & Excel for my Data An
 ---
 
 
-# 📊 Project 1: Sales Data Analysis
+# 📁 Project 1 : Sales Data Analysis
 
 ### 📌 Problem Statement
 Analyzed sales data to find monthly revenue, top products, and sales trends for business decision making.
@@ -28,7 +28,7 @@ Analyzed sales data to find monthly revenue, top products, and sales trends for 
 
 ---
 
-# 📊 Project 2: Employee Data Analysis
+# 📁 Project 2 : Employee Data Analysis
 ### 📌 Project 2: Employee Data Analysis - Problem Statement
 
 **Business Problem:** The HR database (Srijan emp data) contains raw, uncleaned data with no insights on workforce diversity and salary.
