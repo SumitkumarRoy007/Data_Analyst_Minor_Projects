@@ -99,7 +99,7 @@ select department, round(avg(exact_salary),0) as avg_salary from srijan_emp grou
 ---
 
 ### 🛠️ Tech Stack
-`SQL` `Excel` `MySQL` `Data Analysis`
+`Python` `Excel` `MySQL`
 
 ### 👨‍💻 About Me
 Aspiring Data Analyst | Major Project: Kolkata House Price Prediction (1 Lakh+ rows) | 2 Minor Projects
