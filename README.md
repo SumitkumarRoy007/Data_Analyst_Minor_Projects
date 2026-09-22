@@ -1,28 +1,63 @@
-# 📊 Minor Project 1: Sales Data Analysis
+# 📊 Data Analyst Minor Projects
+
+This repository contains 2 Minor Projects built using SQL & Excel for my Data Analyst Portfolio.
+
+---
+
+
+# 📊 Project 1: Sales Data Analysis
 
 ### 📌 Problem Statement
 Analyzed sales data to find monthly revenue, top products, and sales trends for business decision making.
 
-### 📁 Files in this Project (Your 3 files)
-1. `Clean_sales_data.csv` - Final cleaned dataset (after removing duplicates & nulls)
-2. `Sale_queries.sql` - SQL queries used for analysis
-3. `sales_data_analysis.xlsx` - Excel file with Pivot Tables & Charts
+**Files:**
+- `Project_1_Clean_sales_data.csv` - Cleaned sales dataset
+- `Project_1_Sale_queries.sql` - SQL analysis (Total Orders, Revenue, Avg Sales)
+- `Project_1_sales_data_analysis.xlsx` - Excel Dashboard with Pivots & Charts
 
-### 🔍 What I Did?
-- **Data Cleaning:** Cleaned raw sales data in Excel (duplicates, date format, null values)
-- **SQL Analysis:** Wrote queries for:
-    - Total Revenue
-    - Monthly Sales Trend
-    - Top 10 Selling Products
-    - Sales by Region/Category
-- **Excel Dashboard:** Created Pivot Tables and Bar/Line charts from cleaned data
+**What I Did:**
+- Cleaned raw sales data (duplicates, nulls, formats)
+- Wrote SQL queries for Total Revenue, Category-wise Sales, Monthly Trends
+- Built Excel dashboard
+
+- ![Excel Dashboard](Dashboard.png)
+
+**Tools:** `Excel` `MySQL` 
+
+
+
+---
+
+# 📊 Project 2: Employee Data Analysis
+### 📌 Project 2: Employee Data Analysis - Problem Statement
+
+**Business Problem:** The HR database (Srijan emp data) contains raw, uncleaned data with no insights on workforce diversity and salary.
+
+**Task:** To clean the data and answer key HR questions using SQL.
+
+**Files:**
+- `Project_2_Srijan_emp_data.csv` - Raw employee dataset
+- `Project_2_Data_cleaning_emp_data...` - Cleaned employee data 
+- `Project_2_Emp_queries.sql` - SQL queries for HR insights
+
+**What I Did:**
+- Cleaned employee data using python
+- Wrote SQL queries for:
+    - Total number of employees
+    - Gender-wise count (Male/Female)
+    - Female employees records & salary filter (>=40000)
+- HR & Workforce Analysis
+
+**Tools:** `Excel` `MySQL` `Python`
+
+---
 
 ### 🛠️ Tech Stack
-`Excel` `SQL` `MySQL` `Data Cleaning`
+`SQL` `Excel` `MySQL` `Data Analysis`
 
-### 📸 Dashboard Preview
-![Excel Dashboard](Dashboard.png)
+### 👨‍💻 About Me
+Aspiring Data Analyst | Major Project: Kolkata House Price Prediction (1 Lakh+ rows) | 2 Minor Projects
 
-### 👨‍💻 About
-This is Minor Project 1 of my Data Analyst Portfolio.
-Major Project: Kolkata House Price Prediction (1 Lakh+ rows)
+### 🔗 Portfolio
+- Major Project: [Kolkata House Price](https://github.com/SumitkumarRoy007)
+- Minor Projects: This Repo
